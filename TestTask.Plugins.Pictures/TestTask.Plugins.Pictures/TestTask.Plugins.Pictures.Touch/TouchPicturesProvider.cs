@@ -14,7 +14,6 @@ namespace TestTask.Plugins.Pictures.Touch
 				var data = NSData.FromUrl (url);
 				var someImage = UIImage.LoadFromData (data);
 				someImage.SaveToPhotosAlbum((image, error) => {
-					var o = image as UIImage;
 				});
 				return true;
 			} catch{

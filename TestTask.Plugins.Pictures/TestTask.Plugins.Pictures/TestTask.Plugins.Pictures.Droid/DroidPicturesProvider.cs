@@ -31,7 +31,7 @@ namespace TestTask.Plugins.Pictures.Droid
 					var _dir = new File(Environment.GetExternalStoragePublicDirectory(Environment.DirectoryPictures), "Kittens");
 					if (!_dir.Exists())
 					{
-						var res = _dir.Mkdirs();
+						 _dir.Mkdirs();
 					}
 					Intent mediaScanIntent = new Intent(Intent.ActionMediaScannerScanFile);
 					//create a file to write bitmap data

@@ -72,7 +72,7 @@ namespace TestTask.UI.Touch
 
 		public UIImage FlipVertical(UIImage _image)
 		{
-			UIImage Ret, Tmp;
+			UIImage Ret;
 			float newSide = Math.Max (_image.CGImage.Width, _image.CGImage.Height);// * src.CurrentScale;
 			SizeF size = new SizeF (newSide, newSide);
 
@@ -90,7 +90,7 @@ namespace TestTask.UI.Touch
 
 		public UIImage FlipHorizontal(UIImage _image)
 		{
-			UIImage Ret, Tmp;
+			UIImage Ret;
 			float newSide = Math.Max (_image.CGImage.Width, _image.CGImage.Height);// * src.CurrentScale;
 			SizeF size = new SizeF (newSide, newSide);
 
