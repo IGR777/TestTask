@@ -6,3 +6,11 @@
 /Users/igor/Desktop/TestTask/TestTask.Plugins.Notifications/bin/Debug/Cirrious.CrossCore.dll
 /Users/igor/Desktop/TestTask/TestTask.Plugins.Notifications/bin/Debug/Cirrious.MvvmCross.dll
 /Users/igor/Desktop/TestTask/TestTask.Plugins.Notifications/bin/Debug/System.Windows.dll
+/Users/igor/Xamarin-samples/TestTask/TestTask.Plugins.Notifications/obj/Debug/.NETPortable,Version=v4.0,Profile=Profile136.AssemblyAttribute.cs
+/Users/igor/Xamarin-samples/TestTask/TestTask.Plugins.Notifications/bin/Debug/TestTask.Plugins.Notifications.dll.mdb
+/Users/igor/Xamarin-samples/TestTask/TestTask.Plugins.Notifications/bin/Debug/TestTask.Plugins.Notifications.dll
+/Users/igor/Xamarin-samples/TestTask/TestTask.Plugins.Notifications/obj/Debug/TestTask.Plugins.Notifications.dll
+/Users/igor/Xamarin-samples/TestTask/TestTask.Plugins.Notifications/obj/Debug/TestTask.Plugins.Notifications.dll.mdb
+/Users/igor/Xamarin-samples/TestTask/TestTask.Plugins.Notifications/bin/Debug/Cirrious.CrossCore.dll
+/Users/igor/Xamarin-samples/TestTask/TestTask.Plugins.Notifications/bin/Debug/Cirrious.MvvmCross.dll
+/Users/igor/Xamarin-samples/TestTask/TestTask.Plugins.Notifications/bin/Debug/System.Windows.dll

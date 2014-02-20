@@ -1,28 +1,28 @@
 # Version: 7.0.6.168 (2ed9bc9)
-# [first argument, ignore] # /Users/igor/Desktop/TestTask/TestTask.UI.Touch/bin/iPhoneSimulator/Debug/mtouch.exe
+# [first argument, ignore] # /Users/igor/Xamarin-samples/TestTask/TestTask.UI.Touch/bin/iPhoneSimulator/Debug/mtouch.exe
 /Developer/MonoTouch/usr/bin/mtouch \
 	-sdkroot \
 	/Applications/Xcode.app/Contents/Developer \
 	--cache \
-	/Users/igor/Desktop/TestTask/TestTask.UI.Touch/obj/iPhoneSimulator/Debug/mtouch-cache \
+	/Users/igor/Xamarin-samples/TestTask/TestTask.UI.Touch/obj/iPhoneSimulator/Debug/mtouch-cache \
 	--nomanifest \
 	--nosign \
 	-sim \
-	/Users/igor/Desktop/TestTask/TestTask.UI.Touch/bin/iPhoneSimulator/Debug/TestTaskUITouch.app \
+	/Users/igor/Xamarin-samples/TestTask/TestTask.UI.Touch/bin/iPhoneSimulator/Debug/TestTaskUITouch.app \
 	-r \
-	/Users/igor/Desktop/TestTask/TestTask.Core/bin/Debug/TestTask.Core.dll \
+	/Users/igor/Xamarin-samples/TestTask/TestTask.Core/bin/Debug/TestTask.Core.dll \
 	-r \
-	/Users/igor/Desktop/TestTask/TestTask.Plugins.Contacts/bin/Debug/TestTask.Plugins.Contacts.dll \
+	/Users/igor/Xamarin-samples/TestTask/TestTask.Plugins.Contacts/bin/Debug/TestTask.Plugins.Contacts.dll \
 	-r \
-	/Users/igor/Desktop/TestTask/TestTask.Plugins.Contacts/TestTask.Plugins.Contacts.Touch/bin/iPhoneSimulator/Debug/TestTaskPluginsContactsTouch.dll \
+	/Users/igor/Xamarin-samples/TestTask/TestTask.Plugins.Contacts/TestTask.Plugins.Contacts.Touch/bin/iPhoneSimulator/Debug/TestTaskPluginsContactsTouch.dll \
 	-r \
-	/Users/igor/Desktop/TestTask/TestTask.Plugins.Pictures/TestTask.Plugins.Pictures/TestTask.Plugins.Pictures.Touch/bin/Debug/TestTask.Plugins.Pictures.Touch.dll \
+	/Users/igor/Xamarin-samples/TestTask/TestTask.Plugins.Pictures/TestTask.Plugins.Pictures/TestTask.Plugins.Pictures.Touch/bin/Debug/TestTask.Plugins.Pictures.Touch.dll \
 	-r \
-	/Users/igor/Desktop/TestTask/TestTask.Plugins.Pictures/TestTask.Plugins.Pictures/bin/Debug/TestTask.Plugins.Pictures.dll \
+	/Users/igor/Xamarin-samples/TestTask/TestTask.Plugins.Pictures/TestTask.Plugins.Pictures/bin/Debug/TestTask.Plugins.Pictures.dll \
 	-r \
-	/Users/igor/Desktop/TestTask/TestTask.Plugins.Notifications/TestTask.Plugins.Notifications.Touch/bin/Debug/TestTask.Plugins.Notifications.Touch.dll \
+	/Users/igor/Xamarin-samples/TestTask/TestTask.Plugins.Notifications/TestTask.Plugins.Notifications.Touch/bin/Debug/TestTask.Plugins.Notifications.Touch.dll \
 	-r \
-	/Users/igor/Desktop/TestTask/TestTask.Plugins.Notifications/bin/Debug/TestTask.Plugins.Notifications.dll \
+	/Users/igor/Xamarin-samples/TestTask/TestTask.Plugins.Notifications/bin/Debug/TestTask.Plugins.Notifications.dll \
 	-r \
 	/Developer/MonoTouch/usr/lib/mono/2.1/System.dll \
 	-r \
@@ -66,4 +66,4 @@
 	-targetver \
 	7.0 \
 	--abi=i386 \
-	/Users/igor/Desktop/TestTask/TestTask.UI.Touch/bin/iPhoneSimulator/Debug/TestTaskUITouch.exe \
+	/Users/igor/Xamarin-samples/TestTask/TestTask.UI.Touch/bin/iPhoneSimulator/Debug/TestTaskUITouch.exe \
