@@ -1,0 +1,34 @@
+# Version: 7.0.6.168 (2ed9bc9)
+# [first argument, ignore] # /Users/igor/Projects/TestTask/TestTask.UI.Touch/bin/iPhoneSimulator/Release/mtouch.exe
+/Developer/MonoTouch/usr/bin/mtouch \
+	-sdkroot \
+	/Applications/Xcode.app/Contents/Developer \
+	--cache \
+	/Users/igor/Projects/TestTask/TestTask.UI.Touch/obj/iPhoneSimulator/Release/mtouch-cache \
+	--nomanifest \
+	--nosign \
+	-sim \
+	/Users/igor/Projects/TestTask/TestTask.UI.Touch/bin/iPhoneSimulator/Release/TestTaskUITouch.app \
+	-r \
+	/Users/igor/Projects/TestTask/TestTask.Core/bin/Release/TestTask.Core.dll \
+	-r \
+	/Developer/MonoTouch/usr/lib/mono/2.1/System.dll \
+	-r \
+	/Developer/MonoTouch/usr/lib/mono/2.1/System.Xml.dll \
+	-r \
+	/Developer/MonoTouch/usr/lib/mono/2.1/System.Core.dll \
+	-r \
+	/Developer/MonoTouch/usr/lib/mono/2.1/monotouch.dll \
+	-r \
+	/Users/igor/Xamarin-samples/MvvmCross-Binaries/VS2012/bin/Release/Mvx/Touch/Cirrious.CrossCore.Touch.dll \
+	-r \
+	/Users/igor/Xamarin-samples/MvvmCross-Binaries/VS2012/bin/Release/Mvx/Touch/Cirrious.MvvmCross.Binding.Touch.dll \
+	-r \
+	/Users/igor/Xamarin-samples/MvvmCross-Binaries/VS2012/bin/Release/Mvx/Touch/Cirrious.MvvmCross.Touch.dll \
+	-nolink \
+	-sdk \
+	6.1 \
+	-targetver \
+	7.0 \
+	--abi=i386 \
+	/Users/igor/Projects/TestTask/TestTask.UI.Touch/bin/iPhoneSimulator/Release/TestTaskUITouch.exe \

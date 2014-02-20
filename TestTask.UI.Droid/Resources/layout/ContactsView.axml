@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:local="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100px">
+        <TextView
+            android:text="No Items..."
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="fill_parent"
+            android:layout_height="50px"
+            android:layout_margin="10px"
+            local:MvxBind="Visibility IsEmpty,Converter=Visibility"
+            android:layout_marginTop="200px" />
+    </LinearLayout>
+    <Mvx.MvxListView
+        android:id="@+id/lstContacts"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        local:MvxItemTemplate="@layout/listitem_contact"
+        local:MvxBind="ItemsSource Contacts;"
+        android:layout_marginTop="100px" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:inputType="textPersonName"
+            android:layout_width="300px"
+            android:layout_height="50px"
+            android:background="#ffffffff"
+            android:hint="search..."
+            android:layout_margin="20px"
+            android:padding="5px"
+            android:drawableRight="@drawable/search_icon"
+            local:MvxBind="Text Search"
+            android:textColor="#ff000000" />
+        <MvxSpinner
+            android:layout_width="fill_parent"
+            android:layout_height="50px"
+            android:textSize="40dp"
+            android:layout_margin="20px"
+            android:padding="5px"
+            local:MvxBind="ItemsSource SpinnerItems; SelectedItem SelectedItem" />
+    </LinearLayout>
+</FrameLayout>

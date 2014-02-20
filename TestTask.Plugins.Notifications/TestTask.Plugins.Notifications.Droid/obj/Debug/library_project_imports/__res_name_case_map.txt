@@ -1,0 +1,2 @@
+values/Strings.xml;values/strings.xml
+layout/ToastLayout.axml;layout/toastlayout.xml

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:local="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#ff000000"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:text="Refresh"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="10px"
+            local:MvxBind="Click RefreshCommand" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Mvx.MvxListView
+            android:id="@+id/imgListView"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            local:MvxItemTemplate="@layout/listitem_kitten"
+            local:MvxBind="ItemsSource Items;ItemClick ShowKittenCommand" />
+    </LinearLayout>
+</LinearLayout>

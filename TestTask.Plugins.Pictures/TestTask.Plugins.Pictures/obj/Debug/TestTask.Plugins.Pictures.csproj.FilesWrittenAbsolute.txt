@@ -1,0 +1,7 @@
+/Users/igor/Desktop/TestTask/TestTask.Plugins.Pictures/TestTask.Plugins.Pictures/obj/Debug/.NETPortable,Version=v4.0,Profile=Profile24.AssemblyAttribute.cs
+/Users/igor/Desktop/TestTask/TestTask.Plugins.Pictures/TestTask.Plugins.Pictures/bin/Debug/TestTask.Plugins.Pictures.dll.mdb
+/Users/igor/Desktop/TestTask/TestTask.Plugins.Pictures/TestTask.Plugins.Pictures/bin/Debug/TestTask.Plugins.Pictures.dll
+/Users/igor/Desktop/TestTask/TestTask.Plugins.Pictures/TestTask.Plugins.Pictures/obj/Debug/TestTask.Plugins.Pictures.dll
+/Users/igor/Desktop/TestTask/TestTask.Plugins.Pictures/TestTask.Plugins.Pictures/obj/Debug/TestTask.Plugins.Pictures.dll.mdb
+/Users/igor/Desktop/TestTask/TestTask.Plugins.Pictures/TestTask.Plugins.Pictures/bin/Debug/Cirrious.CrossCore.dll
+/Users/igor/Desktop/TestTask/TestTask.Plugins.Pictures/TestTask.Plugins.Pictures/bin/Debug/Cirrious.MvvmCross.dll

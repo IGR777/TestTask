@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="TestTask.UI.Droid">
+  <uses-sdk android:minSdkVersion="15" />
+  <application android:label="TestTask.UI.Droid" android:name="mono.android.app.Application" android:debuggable="true">
+    <activity android:label="Test task" android:name="testtask.ui.droid.GrandView" />
+    <activity android:icon="@drawable/icon" android:label="Test task" android:noHistory="true" android:screenOrientation="portrait" android:name="testtask.ui.droid.SplashScreen" />
+    <activity android:label="Contacts" android:name="testtask.ui.droid.ContactsView" />
+    <activity android:label="Send Email" android:name="testtask.ui.droid.EmailView" />
+    <activity android:label="Entities" android:name="testtask.ui.droid.EntitiesView" />
+    <activity android:label="Entities" android:name="testtask.ui.droid.EntityEditView" />
+    <activity android:label="Pictures" android:name="testtask.ui.droid.PicturesView" />
+    <activity android:label="Show picture" android:name="testtask.ui.droid.ShowPictureView" />
+    <activity android:label="Edit picture" android:name="testtask.ui.droid.EditPictureView" />
+    <activity android:label="Cool picture" android:name="testtask.ui.droid.CoolPictureView" />
+    <activity android:name="xamarin.media.MediaPickerActivity" />
+    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="TestTask.UI.Droid.mono.MonoRuntimeProvider.__mono_init__" />
+    <receiver android:name="mono.android.Seppuku">
+      <intent-filter>
+        <action android:name="mono.android.intent.action.SEPPUKU" />
+        <category android:name="mono.android.intent.category.SEPPUKU.TestTask.UI.Droid" />
+      </intent-filter>
+    </receiver>
+    <activity android:icon="@drawable/icon" android:label="Test task" android:noHistory="true" android:screenOrientation="portrait" android:name="testtask.ui.droid.TrialSplashScreen" android:theme="@style/Mono.Android.Theme.Splash">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+  </application>
+  <uses-permission android:name="android.permission.READ_CONTACTS" />
+  <uses-permission android:name="android.permission.CALL_PHONE" />
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+  <uses-permission android:name="android.permission.INTERNET" />
+</manifest>

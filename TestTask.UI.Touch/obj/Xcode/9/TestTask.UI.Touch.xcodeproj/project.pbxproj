@@ -1,0 +1,370 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		288A0E880000000000000000 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C1B1B260000000000000000 /* UIKit.framework */; };
+		A1FB1BB00000000000000000 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB0BE5900000000000000000 /* MapKit.framework */; };
+		1F531A530000000000000000 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22E426F10000000000000000 /* Foundation.framework */; };
+		12BDFC9C0000000000000000 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 164F093A0000000000000000 /* CoreGraphics.framework */; };
+		322A8F5B0000000000000000 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35BB9BF90000000000000000 /* Default-568h@2x.png */; };
+		75DF7F300000000000000000 /* .DS_Store in Resources */ = {isa = PBXBuildFile; fileRef = AEF049100000000000000000 /* .DS_Store */; };
+		3588B8DD0000000000000000 /* kitten.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3919C57B0000000000000000 /* kitten.jpg */; };
+		23B379C70000000000000000 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 274486650000000000000000 /* Info.plist */; };
+		8FB9B0000000000000000000 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 39A083900000000000000000 /* Entitlements.plist */; };
+		2C1EE18C0000000000000000 /* ContactsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FAFEE2A0000000000000000 /* ContactsView.xib */; };
+		330E17AC0000000000000000 /* PicturesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 369F244A0000000000000000 /* PicturesView.xib */; };
+		11F670800000000000000000 /* EntitiesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B073A600000000000000000 /* EntitiesView.xib */; };
+		F30B66400000000000000000 /* CoolPicture.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12C1C3020000000000000000 /* CoolPicture.xib */; };
+		2D354CF90000000000000000 /* EmailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30C659970000000000000000 /* EmailView.xib */; };
+		ECAF02C00000000000000000 /* EntityEditView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 125BFCCA0000000000000000 /* EntityEditView.xib */; };
+		122919AE0000000000000000 /* EntityCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15BA264C0000000000000000 /* EntityCell.xib */; };
+		38FEDE400000000000000000 /* KittenCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C8FEADE0000000000000000 /* KittenCell.xib */; };
+		2365AF700000000000000000 /* ShowPictureViewModel.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26F6BC0E0000000000000000 /* ShowPictureViewModel.xib */; };
+		FAE787D00000000000000000 /* EditPictureView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 133F851B0000000000000000 /* EditPictureView.xib */; };
+		14EE99DC0000000000000000 /* AppDelegate.h in Sources */ = {isa = PBXBuildFile; fileRef = 187FA67A0000000000000000 /* AppDelegate.h */; };
+		2BD117350000000000000000 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F6223D30000000000000000 /* AppDelegate.m */; };
+		826990900000000000000000 /* ContactsView.h in Sources */ = {isa = PBXBuildFile; fileRef = BB7A5A700000000000000000 /* ContactsView.h */; };
+		20EB0E3F0000000000000000 /* ContactsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 247C1ADD0000000000000000 /* ContactsView.m */; };
+		462A94F00000000000000000 /* PicturesView.h in Sources */ = {isa = PBXBuildFile; fileRef = 7F3B5ED00000000000000000 /* PicturesView.h */; };
+		1273F8AB0000000000000000 /* PicturesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 160505490000000000000000 /* PicturesView.m */; };
+		35EB93BB0000000000000000 /* EntitiesView.h in Sources */ = {isa = PBXBuildFile; fileRef = 397CA0590000000000000000 /* EntitiesView.h */; };
+		EB008F100000000000000000 /* EntitiesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1241158F0000000000000000 /* EntitiesView.m */; };
+		3227A4010000000000000000 /* CoolPicture.h in Sources */ = {isa = PBXBuildFile; fileRef = 35B8B09F0000000000000000 /* CoolPicture.h */; };
+		1ADF60700000000000000000 /* CoolPicture.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E706D0E0000000000000000 /* CoolPicture.m */; };
+		156C5BF50000000000000000 /* GrandView.h in Sources */ = {isa = PBXBuildFile; fileRef = 18FD68930000000000000000 /* GrandView.h */; };
+		FF9577A00000000000000000 /* GrandView.m in Sources */ = {isa = PBXBuildFile; fileRef = 138A64180000000000000000 /* GrandView.m */; };
+		153978D90000000000000000 /* EmailView.h in Sources */ = {isa = PBXBuildFile; fileRef = 18CA85770000000000000000 /* EmailView.h */; };
+		13249DE00000000000000000 /* EmailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 16B5AA7E0000000000000000 /* EmailView.m */; };
+		39FA62720000000000000000 /* EntityEditView.h in Sources */ = {isa = PBXBuildFile; fileRef = 3D8B6F100000000000000000 /* EntityEditView.h */; };
+		12BED7A80000000000000000 /* EntityEditView.m in Sources */ = {isa = PBXBuildFile; fileRef = 164FE4460000000000000000 /* EntityEditView.m */; };
+		17FEF9070000000000000000 /* EntityCell.h in Sources */ = {isa = PBXBuildFile; fileRef = 1B9005A50000000000000000 /* EntityCell.h */; };
+		125911700000000000000000 /* EntityCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 15EA1E0E0000000000000000 /* EntityCell.m */; };
+		5C3F3B900000000000000000 /* KittenCell.h in Sources */ = {isa = PBXBuildFile; fileRef = 955005700000000000000000 /* KittenCell.h */; };
+		50EF3E000000000000000000 /* KittenCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E1FBDC00000000000000000 /* KittenCell.m */; };
+		20377DB00000000000000000 /* ShowPictureViewModel.h in Sources */ = {isa = PBXBuildFile; fileRef = 23C88A4E0000000000000000 /* ShowPictureViewModel.h */; };
+		356AE6480000000000000000 /* ShowPictureViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 38FBF2E60000000000000000 /* ShowPictureViewModel.m */; };
+		18E281580000000000000000 /* EditPictureView.h in Sources */ = {isa = PBXBuildFile; fileRef = 1C738DF60000000000000000 /* EditPictureView.h */; };
+		31A6F68E0000000000000000 /* EditPictureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3538032C0000000000000000 /* EditPictureView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		332538810000000000000000 /* TestTask.UI.Touch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "TestTask.UI.Touch.app"; path = "TestTask.UI.Touch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C1B1B260000000000000000 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "UIKit.framework"; path = "System/Library/Frameworks/UIKit.framework"; sourceTree = SDKROOT; };
+		DB0BE5900000000000000000 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "MapKit.framework"; path = "System/Library/Frameworks/MapKit.framework"; sourceTree = SDKROOT; };
+		22E426F10000000000000000 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Foundation.framework"; path = "System/Library/Frameworks/Foundation.framework"; sourceTree = SDKROOT; };
+		164F093A0000000000000000 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "CoreGraphics.framework"; path = "System/Library/Frameworks/CoreGraphics.framework"; sourceTree = SDKROOT; };
+		35BB9BF90000000000000000 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		AEF049100000000000000000 /* .DS_Store */ = {isa = PBXFileReference; name = ".DS_Store"; path = ".DS_Store"; sourceTree = "<group>"; };
+		3919C57B0000000000000000 /* kitten.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "kitten.jpg"; path = "kitten.jpg"; sourceTree = "<group>"; };
+		274486650000000000000000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Info.plist"; path = "Info.plist"; sourceTree = "<group>"; };
+		39A083900000000000000000 /* Entitlements.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Entitlements.plist"; path = "Entitlements.plist"; sourceTree = "<group>"; };
+		2FAFEE2A0000000000000000 /* ContactsView.xib */ = {isa = PBXFileReference; name = "ContactsView.xib"; path = "Views/ContactsView.xib"; sourceTree = "<group>"; };
+		369F244A0000000000000000 /* PicturesView.xib */ = {isa = PBXFileReference; name = "PicturesView.xib"; path = "Views/PicturesView.xib"; sourceTree = "<group>"; };
+		4B073A600000000000000000 /* EntitiesView.xib */ = {isa = PBXFileReference; name = "EntitiesView.xib"; path = "Views/EntitiesView.xib"; sourceTree = "<group>"; };
+		12C1C3020000000000000000 /* CoolPicture.xib */ = {isa = PBXFileReference; name = "CoolPicture.xib"; path = "Views/CoolPicture.xib"; sourceTree = "<group>"; };
+		30C659970000000000000000 /* EmailView.xib */ = {isa = PBXFileReference; name = "EmailView.xib"; path = "Views/EmailView.xib"; sourceTree = "<group>"; };
+		125BFCCA0000000000000000 /* EntityEditView.xib */ = {isa = PBXFileReference; name = "EntityEditView.xib"; path = "Views/EntityEditView.xib"; sourceTree = "<group>"; };
+		15BA264C0000000000000000 /* EntityCell.xib */ = {isa = PBXFileReference; name = "EntityCell.xib"; path = "Cells/EntityCell.xib"; sourceTree = "<group>"; };
+		3C8FEADE0000000000000000 /* KittenCell.xib */ = {isa = PBXFileReference; name = "KittenCell.xib"; path = "Cells/KittenCell.xib"; sourceTree = "<group>"; };
+		26F6BC0E0000000000000000 /* ShowPictureViewModel.xib */ = {isa = PBXFileReference; name = "ShowPictureViewModel.xib"; path = "Views/ShowPictureViewModel.xib"; sourceTree = "<group>"; };
+		133F851B0000000000000000 /* EditPictureView.xib */ = {isa = PBXFileReference; name = "EditPictureView.xib"; path = "Views/EditPictureView.xib"; sourceTree = "<group>"; };
+		187FA67A0000000000000000 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AppDelegate.h"; path = "AppDelegate.h"; sourceTree = "<group>"; };
+		2F6223D30000000000000000 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "AppDelegate.m"; path = "AppDelegate.m"; sourceTree = "<group>"; };
+		BB7A5A700000000000000000 /* ContactsView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "ContactsView.h"; path = "ContactsView.h"; sourceTree = "<group>"; };
+		247C1ADD0000000000000000 /* ContactsView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "ContactsView.m"; path = "ContactsView.m"; sourceTree = "<group>"; };
+		7F3B5ED00000000000000000 /* PicturesView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "PicturesView.h"; path = "PicturesView.h"; sourceTree = "<group>"; };
+		160505490000000000000000 /* PicturesView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "PicturesView.m"; path = "PicturesView.m"; sourceTree = "<group>"; };
+		397CA0590000000000000000 /* EntitiesView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "EntitiesView.h"; path = "EntitiesView.h"; sourceTree = "<group>"; };
+		1241158F0000000000000000 /* EntitiesView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "EntitiesView.m"; path = "EntitiesView.m"; sourceTree = "<group>"; };
+		35B8B09F0000000000000000 /* CoolPicture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CoolPicture.h"; path = "CoolPicture.h"; sourceTree = "<group>"; };
+		1E706D0E0000000000000000 /* CoolPicture.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CoolPicture.m"; path = "CoolPicture.m"; sourceTree = "<group>"; };
+		18FD68930000000000000000 /* GrandView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "GrandView.h"; path = "GrandView.h"; sourceTree = "<group>"; };
+		138A64180000000000000000 /* GrandView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "GrandView.m"; path = "GrandView.m"; sourceTree = "<group>"; };
+		18CA85770000000000000000 /* EmailView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "EmailView.h"; path = "EmailView.h"; sourceTree = "<group>"; };
+		16B5AA7E0000000000000000 /* EmailView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "EmailView.m"; path = "EmailView.m"; sourceTree = "<group>"; };
+		3D8B6F100000000000000000 /* EntityEditView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "EntityEditView.h"; path = "EntityEditView.h"; sourceTree = "<group>"; };
+		164FE4460000000000000000 /* EntityEditView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "EntityEditView.m"; path = "EntityEditView.m"; sourceTree = "<group>"; };
+		1B9005A50000000000000000 /* EntityCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "EntityCell.h"; path = "EntityCell.h"; sourceTree = "<group>"; };
+		15EA1E0E0000000000000000 /* EntityCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "EntityCell.m"; path = "EntityCell.m"; sourceTree = "<group>"; };
+		955005700000000000000000 /* KittenCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "KittenCell.h"; path = "KittenCell.h"; sourceTree = "<group>"; };
+		3E1FBDC00000000000000000 /* KittenCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "KittenCell.m"; path = "KittenCell.m"; sourceTree = "<group>"; };
+		23C88A4E0000000000000000 /* ShowPictureViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "ShowPictureViewModel.h"; path = "ShowPictureViewModel.h"; sourceTree = "<group>"; };
+		38FBF2E60000000000000000 /* ShowPictureViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "ShowPictureViewModel.m"; path = "ShowPictureViewModel.m"; sourceTree = "<group>"; };
+		1C738DF60000000000000000 /* EditPictureView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "EditPictureView.h"; path = "EditPictureView.h"; sourceTree = "<group>"; };
+		3538032C0000000000000000 /* EditPictureView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "EditPictureView.m"; path = "EditPictureView.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8BE675100000000000000000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				288A0E880000000000000000 /* UIKit.framework in Frameworks */,
+				A1FB1BB00000000000000000 /* MapKit.framework in Frameworks */,
+				1F531A530000000000000000 /* Foundation.framework in Frameworks */,
+				12BDFC9C0000000000000000 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28D7D8DF0000000000000000 = {
+			isa = PBXGroup;
+			children = (
+				13718D2B0000000000000000 /* TestTask.UI.Touch */,
+				338AFEB90000000000000000 /* Frameworks */,
+				1E24B3050000000000000000 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1E24B3050000000000000000 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				332538810000000000000000 /* TestTask.UI.Touch.app */,
+			);
+			name = "Products";
+			sourceTree = "<group>";
+		};
+		338AFEB90000000000000000 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2C1B1B260000000000000000 /* UIKit.framework */,
+				DB0BE5900000000000000000 /* MapKit.framework */,
+				22E426F10000000000000000 /* Foundation.framework */,
+				164F093A0000000000000000 /* CoreGraphics.framework */,
+			);
+			name = "Frameworks";
+			sourceTree = "<group>";
+		};
+		13718D2B0000000000000000 /* TestTask.UI.Touch */ = {
+			isa = PBXGroup;
+			children = (
+				AEF049100000000000000000 /* .DS_Store */,
+				187FA67A0000000000000000 /* AppDelegate.h */,
+				BB7A5A700000000000000000 /* ContactsView.h */,
+				35B8B09F0000000000000000 /* CoolPicture.h */,
+				35BB9BF90000000000000000 /* Default-568h@2x.png */,
+				1C738DF60000000000000000 /* EditPictureView.h */,
+				18CA85770000000000000000 /* EmailView.h */,
+				397CA0590000000000000000 /* EntitiesView.h */,
+				39A083900000000000000000 /* Entitlements.plist */,
+				1B9005A50000000000000000 /* EntityCell.h */,
+				3D8B6F100000000000000000 /* EntityEditView.h */,
+				18FD68930000000000000000 /* GrandView.h */,
+				274486650000000000000000 /* Info.plist */,
+				3919C57B0000000000000000 /* kitten.jpg */,
+				955005700000000000000000 /* KittenCell.h */,
+				7F3B5ED00000000000000000 /* PicturesView.h */,
+				23C88A4E0000000000000000 /* ShowPictureViewModel.h */,
+				206D4C260000000000000000 /* Cells */,
+				34D5284E0000000000000000 /* Supporting Files */,
+				2A6FCCCB0000000000000000 /* Views */,
+			);
+			name = "TestTask.UI.Touch";
+			sourceTree = "<group>";
+		};
+		2A6FCCCB0000000000000000 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2FAFEE2A0000000000000000 /* ContactsView.xib */,
+				12C1C3020000000000000000 /* CoolPicture.xib */,
+				133F851B0000000000000000 /* EditPictureView.xib */,
+				30C659970000000000000000 /* EmailView.xib */,
+				4B073A600000000000000000 /* EntitiesView.xib */,
+				125BFCCA0000000000000000 /* EntityEditView.xib */,
+				369F244A0000000000000000 /* PicturesView.xib */,
+				26F6BC0E0000000000000000 /* ShowPictureViewModel.xib */,
+			);
+			name = "Views";
+			sourceTree = "<group>";
+		};
+		206D4C260000000000000000 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				15BA264C0000000000000000 /* EntityCell.xib */,
+				3C8FEADE0000000000000000 /* KittenCell.xib */,
+			);
+			name = "Cells";
+			sourceTree = "<group>";
+		};
+		34D5284E0000000000000000 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2F6223D30000000000000000 /* AppDelegate.m */,
+				247C1ADD0000000000000000 /* ContactsView.m */,
+				1E706D0E0000000000000000 /* CoolPicture.m */,
+				3538032C0000000000000000 /* EditPictureView.m */,
+				16B5AA7E0000000000000000 /* EmailView.m */,
+				1241158F0000000000000000 /* EntitiesView.m */,
+				15EA1E0E0000000000000000 /* EntityCell.m */,
+				164FE4460000000000000000 /* EntityEditView.m */,
+				138A64180000000000000000 /* GrandView.m */,
+				3E1FBDC00000000000000000 /* KittenCell.m */,
+				160505490000000000000000 /* PicturesView.m */,
+				38FBF2E60000000000000000 /* ShowPictureViewModel.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B6A75F10000000000000000 /* TestTask.UI.Touch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 287212A70000000000000000 /* Build configuration list for PBXNativeTarget "TestTask.UI.Touch" */;
+			buildPhases = (
+				36E9283B0000000000000000 /* Sources */,
+				8BE675100000000000000000 /* Frameworks */,
+				1FD3C7C60000000000000000 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TestTask.UI.Touch";
+			productName = "TestTask.UI.Touch";
+			productReference = 332538810000000000000000 /* TestTask.UI.Touch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20B750170000000000000000 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DBEECCD0000000000000000 /* Build configuration list for PBXProject "TestTask.UI.Touch" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 28D7D8DF0000000000000000;
+			productRefGroup = 1E24B3050000000000000000 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B6A75F10000000000000000 /* TestTask.UI.Touch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1FD3C7C60000000000000000 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				322A8F5B0000000000000000 /* Default-568h@2x.png in Resources */,
+				75DF7F300000000000000000 /* .DS_Store in Resources */,
+				3588B8DD0000000000000000 /* kitten.jpg in Resources */,
+				23B379C70000000000000000 /* Info.plist in Resources */,
+				8FB9B0000000000000000000 /* Entitlements.plist in Resources */,
+				2C1EE18C0000000000000000 /* ContactsView.xib in Resources */,
+				330E17AC0000000000000000 /* PicturesView.xib in Resources */,
+				11F670800000000000000000 /* EntitiesView.xib in Resources */,
+				F30B66400000000000000000 /* CoolPicture.xib in Resources */,
+				2D354CF90000000000000000 /* EmailView.xib in Resources */,
+				ECAF02C00000000000000000 /* EntityEditView.xib in Resources */,
+				122919AE0000000000000000 /* EntityCell.xib in Resources */,
+				38FEDE400000000000000000 /* KittenCell.xib in Resources */,
+				2365AF700000000000000000 /* ShowPictureViewModel.xib in Resources */,
+				FAE787D00000000000000000 /* EditPictureView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36E9283B0000000000000000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14EE99DC0000000000000000 /* AppDelegate.h in Sources */,
+				2BD117350000000000000000 /* AppDelegate.m in Sources */,
+				826990900000000000000000 /* ContactsView.h in Sources */,
+				20EB0E3F0000000000000000 /* ContactsView.m in Sources */,
+				462A94F00000000000000000 /* PicturesView.h in Sources */,
+				1273F8AB0000000000000000 /* PicturesView.m in Sources */,
+				35EB93BB0000000000000000 /* EntitiesView.h in Sources */,
+				EB008F100000000000000000 /* EntitiesView.m in Sources */,
+				3227A4010000000000000000 /* CoolPicture.h in Sources */,
+				1ADF60700000000000000000 /* CoolPicture.m in Sources */,
+				156C5BF50000000000000000 /* GrandView.h in Sources */,
+				FF9577A00000000000000000 /* GrandView.m in Sources */,
+				153978D90000000000000000 /* EmailView.h in Sources */,
+				13249DE00000000000000000 /* EmailView.m in Sources */,
+				39FA62720000000000000000 /* EntityEditView.h in Sources */,
+				12BED7A80000000000000000 /* EntityEditView.m in Sources */,
+				17FEF9070000000000000000 /* EntityCell.h in Sources */,
+				125911700000000000000000 /* EntityCell.m in Sources */,
+				5C3F3B900000000000000000 /* KittenCell.h in Sources */,
+				50EF3E000000000000000000 /* KittenCell.m in Sources */,
+				20377DB00000000000000000 /* ShowPictureViewModel.h in Sources */,
+				356AE6480000000000000000 /* ShowPictureViewModel.m in Sources */,
+				18E281580000000000000000 /* EditPictureView.h in Sources */,
+				31A6F68E0000000000000000 /* EditPictureView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F3B1E720000000000000000 /* MonoTouch */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				SDKROOT = iphoneos;
+			};
+			name = MonoTouch;
+		};
+		130BC6F30000000000000000 /* MonoTouch */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				PRODUCT_NAME = "TestTask.UI.Touch";
+				WRAPPER_EXTENSION = app;
+			};
+			name = MonoTouch;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DBEECCD0000000000000000 /* Build configuration list for PBXProject "TestTask.UI.Touch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F3B1E720000000000000000 /* MonoTouch */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = MonoTouch;
+		};
+		287212A70000000000000000 /* Build configuration list for PBXNativeTarget "TestTask.UI.Touch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				130BC6F30000000000000000 /* MonoTouch */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = MonoTouch;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 20B750170000000000000000 /* Project object */;
+}

@@ -1,0 +1,16 @@
+/Users/igor/Desktop/TestTask/TestTask.Plugins.CoolPicture/TestTask.Plugins.CoolPicture.Droid/obj/Debug/MonoAndroid,Version=v4.0.3.AssemblyAttribute.cs
+/Users/igor/Desktop/TestTask/TestTask.Plugins.CoolPicture/TestTask.Plugins.CoolPicture.Droid/obj/Debug/TestTask.Plugins.CoolPicture.Droid.obj.Debug.__AndroidLibraryProjects__.zip
+/Users/igor/Desktop/TestTask/TestTask.Plugins.CoolPicture/TestTask.Plugins.CoolPicture.Droid/bin/Debug/Cirrious.CrossCore.dll
+/Users/igor/Desktop/TestTask/TestTask.Plugins.CoolPicture/TestTask.Plugins.CoolPicture.Droid/bin/Debug/TestTask.Plugins.CoolPicture.dll
+/Users/igor/Desktop/TestTask/TestTask.Plugins.CoolPicture/TestTask.Plugins.CoolPicture.Droid/bin/Debug/TestTask.Plugins.CoolPicture.dll.mdb
+/Users/igor/Desktop/TestTask/TestTask.Plugins.CoolPicture/TestTask.Plugins.CoolPicture.Droid/bin/Debug/System.Windows.dll
+/Users/igor/Desktop/TestTask/TestTask.Plugins.CoolPicture/TestTask.Plugins.CoolPicture.Droid/bin/Debug/TestTask.Plugins.CoolPicture.Droid.dll.mdb
+/Users/igor/Desktop/TestTask/TestTask.Plugins.CoolPicture/TestTask.Plugins.CoolPicture.Droid/bin/Debug/TestTask.Plugins.CoolPicture.Droid.dll
+/Users/igor/Desktop/TestTask/TestTask.Plugins.CoolPicture/TestTask.Plugins.CoolPicture.Droid/bin/Debug/TestTask.Plugins.CoolPicture.Droid.apk
+/Users/igor/Desktop/TestTask/TestTask.Plugins.CoolPicture/TestTask.Plugins.CoolPicture.Droid/obj/Debug/android/bin/TestTask.Plugins.CoolPicture.Droid.apk
+/Users/igor/Desktop/TestTask/TestTask.Plugins.CoolPicture/TestTask.Plugins.CoolPicture.Droid/obj/Debug/res/values/strings.xml
+/Users/igor/Desktop/TestTask/TestTask.Plugins.CoolPicture/TestTask.Plugins.CoolPicture.Droid/obj/Debug/R.cs.flag
+/Users/igor/Desktop/TestTask/TestTask.Plugins.CoolPicture/TestTask.Plugins.CoolPicture.Droid/bin/Debug/TestTask.Plugins.CoolPicture.Droid-Signed.apk
+/Users/igor/Desktop/TestTask/TestTask.Plugins.CoolPicture/TestTask.Plugins.CoolPicture.Droid/obj/Debug/uploadflags.txt
+/Users/igor/Desktop/TestTask/TestTask.Plugins.CoolPicture/TestTask.Plugins.CoolPicture.Droid/obj/Debug/TestTask.Plugins.CoolPicture.Droid.dll
+/Users/igor/Desktop/TestTask/TestTask.Plugins.CoolPicture/TestTask.Plugins.CoolPicture.Droid/obj/Debug/TestTask.Plugins.CoolPicture.Droid.dll.mdb
