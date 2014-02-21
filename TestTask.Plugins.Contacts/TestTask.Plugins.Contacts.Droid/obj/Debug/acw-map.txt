@@ -3,14 +3,6 @@ Cirrious.CrossCore.Droid.MvxJavaContainer`1;cirrious.crosscore.droid.MvxJavaCont
 Cirrious.CrossCore.Droid.MvxReplaceableJavaContainer;cirrious.crosscore.droid.MvxReplaceableJavaContainer
 Cirrious.CrossCore.Droid.Views.MvxEventSourceActivity;cirrious.crosscore.droid.views.MvxEventSourceActivity
 Cirrious.CrossCore.Droid.Views.MvxEventSourceTabActivity;cirrious.crosscore.droid.views.MvxEventSourceTabActivity
-Xamarin.AsyncQuery`1;xamarin.AsyncQuery_1
-Xamarin.Geolocation.GeolocationContinuousListener;xamarin.geolocation.GeolocationContinuousListener
-Xamarin.Geolocation.GeolocationSingleListener;xamarin.geolocation.GeolocationSingleListener
-Xamarin.Media.MediaPickerActivity;xamarin.media.MediaPickerActivity
-Cirrious.MvvmCross.Droid.Views.MvxActivity;cirrious.mvvmcross.droid.views.MvxActivity
-Cirrious.MvvmCross.Droid.Simple.MvxSimpleBindingActivity;cirrious.mvvmcross.droid.simple.MvxSimpleBindingActivity
-Cirrious.MvvmCross.Droid.Views.MvxSplashScreenActivity;cirrious.mvvmcross.droid.views.MvxSplashScreenActivity
-Cirrious.MvvmCross.Droid.Views.MvxTabActivity;cirrious.mvvmcross.droid.views.MvxTabActivity
 Cirrious.MvvmCross.Binding.Droid.Target.MvxSeekBarProgressTargetBinging.SeekBarChangeListener;cirrious.mvvmcross.binding.droid.target.MvxSeekBarProgressTargetBinging_SeekBarChangeListener
 Cirrious.MvvmCross.Binding.Droid.Views.MvxBaseListItemView;cirrious.mvvmcross.binding.droid.views.MvxBaseListItemView
 Cirrious.MvvmCross.Binding.Droid.Views.MvxFrameControl;cirrious.mvvmcross.binding.droid.views.MvxFrameControl
@@ -32,3 +24,11 @@ Cirrious.MvvmCross.Binding.Droid.Views.MvxTimePicker;cirrious.mvvmcross.binding.
 Cirrious.MvvmCross.Binding.Droid.Views.MvxRelativeLayout;cirrious.mvvmcross.binding.droid.views.MvxRelativeLayout
 Cirrious.MvvmCross.Binding.Droid.Views.MvxFrameLayout;cirrious.mvvmcross.binding.droid.views.MvxFrameLayout
 Cirrious.MvvmCross.Binding.Droid.Views.MvxTableLayout;cirrious.mvvmcross.binding.droid.views.MvxTableLayout
+Cirrious.MvvmCross.Droid.Views.MvxActivity;cirrious.mvvmcross.droid.views.MvxActivity
+Cirrious.MvvmCross.Droid.Simple.MvxSimpleBindingActivity;cirrious.mvvmcross.droid.simple.MvxSimpleBindingActivity
+Cirrious.MvvmCross.Droid.Views.MvxSplashScreenActivity;cirrious.mvvmcross.droid.views.MvxSplashScreenActivity
+Cirrious.MvvmCross.Droid.Views.MvxTabActivity;cirrious.mvvmcross.droid.views.MvxTabActivity
+Xamarin.AsyncQuery`1;xamarin.AsyncQuery_1
+Xamarin.Geolocation.GeolocationContinuousListener;xamarin.geolocation.GeolocationContinuousListener
+Xamarin.Geolocation.GeolocationSingleListener;xamarin.geolocation.GeolocationSingleListener
+Xamarin.Media.MediaPickerActivity;xamarin.media.MediaPickerActivity

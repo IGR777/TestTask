@@ -37,11 +37,27 @@ namespace TestTask.Plugins.Notifications.Droid
 			}
 		}
 		
+		public partial class Drawable
+		{
+			
+			// aapt resource value: 0x7f020000
+			public static int splash = 2130837504;
+			
+			static Drawable()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Drawable()
+			{
+			}
+		}
+		
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f040000
-			public static int MessageText = 2130968576;
+			// aapt resource value: 0x7f060000
+			public static int MessageText = 2131099648;
 			
 			static Id()
 			{
@@ -56,8 +72,11 @@ namespace TestTask.Plugins.Notifications.Droid
 		public partial class Layout
 		{
 			
-			// aapt resource value: 0x7f020000
-			public static int ToastLayout = 2130837504;
+			// aapt resource value: 0x7f030000
+			public static int SplashScreen = 2130903040;
+			
+			// aapt resource value: 0x7f030001
+			public static int ToastLayout = 2130903041;
 			
 			static Layout()
 			{
@@ -72,8 +91,8 @@ namespace TestTask.Plugins.Notifications.Droid
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f030000
-			public static int library_name = 2130903040;
+			// aapt resource value: 0x7f050000
+			public static int library_name = 2131034112;
 			
 			static String()
 			{
@@ -81,6 +100,22 @@ namespace TestTask.Plugins.Notifications.Droid
 			}
 			
 			private String()
+			{
+			}
+		}
+		
+		public partial class Style
+		{
+			
+			// aapt resource value: 0x7f040000
+			public static int Theme_Splash = 2130968576;
+			
+			static Style()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Style()
 			{
 			}
 		}

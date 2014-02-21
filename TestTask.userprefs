@@ -1,6 +1,11 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="TestTask.Core/ViewModels/PicturesViewModel.cs">
+    <Files>
+      <File FileName="TestTask.Plugins.Contacts/TestTask.Plugins.Contacts.Touch/TouchContactProvider.cs" Line="1" Column="1" />
+      <File FileName="TestTask.Core/ViewModels/PicturesViewModel.cs" Line="9" Column="34" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
@@ -8,6 +13,6 @@
     <Watch file="TestTask.UI.Touch/Setup.cs" line="54" offsetX="260" offsetY="795" expression="view" liveUpdate="False" />
     <Watch file="TestTask.UI.Droid/Views/ContactsView.cs" line="35" offsetX="491" offsetY="510" expression="_adapter" liveUpdate="False" />
   </MonoDevelop.Ide.DebuggingService.PinnedWatches>
-  <MonoDevelop.Ide.ItemProperties.Plugins.Notifications.TestTask.Plugins.Notifications.Droid MonoForAntroid.PreferredDevice="3.7in WVGA (Nexus One)" />
   <MonoDevelop.Ide.ItemProperties.TestTask.UI.Droid MonoForAntroid.PreferredDevice="3.7in WVGA (Nexus One)" AndroidDeviceId-Debug="emulator-5554" />
+  <MonoDevelop.Ide.ItemProperties.Plugins.Notifications.TestTask.Plugins.Notifications.Droid MonoForAntroid.PreferredDevice="3.7in WVGA (Nexus One)" />
 </Properties>

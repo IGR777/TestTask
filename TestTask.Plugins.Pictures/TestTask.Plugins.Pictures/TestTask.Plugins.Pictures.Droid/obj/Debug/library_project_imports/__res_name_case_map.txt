@@ -1,1 +1,4 @@
 values/Strings.xml;values/strings.xml
+Layout/SplashScreen.axml;layout/splashscreen.xml
+Values/SplashStyle.xml;values/splashstyle.xml
+Drawable/splash.png;drawable/splash.png

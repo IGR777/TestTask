@@ -1,28 +1,28 @@
 # Version: 7.0.6.168 (2ed9bc9)
-# [first argument, ignore] # /Users/igor/Xamarin-samples/TestTask/TestTask.UI.Touch/bin/iPhoneSimulator/Debug/mtouch.exe
+# [first argument, ignore] # /Users/igor/Desktop/1/TestTask/TestTask.UI.Touch/bin/iPhoneSimulator/Debug/mtouch.exe
 /Developer/MonoTouch/usr/bin/mtouch \
 	-sdkroot \
 	/Applications/Xcode.app/Contents/Developer \
 	--cache \
-	/Users/igor/Xamarin-samples/TestTask/TestTask.UI.Touch/obj/iPhoneSimulator/Debug/mtouch-cache \
+	/Users/igor/Desktop/1/TestTask/TestTask.UI.Touch/obj/iPhoneSimulator/Debug/mtouch-cache \
 	--nomanifest \
 	--nosign \
 	-sim \
-	/Users/igor/Xamarin-samples/TestTask/TestTask.UI.Touch/bin/iPhoneSimulator/Debug/TestTaskUITouch.app \
+	/Users/igor/Desktop/1/TestTask/TestTask.UI.Touch/bin/iPhoneSimulator/Debug/TestTaskUITouch.app \
 	-r \
-	/Users/igor/Xamarin-samples/TestTask/TestTask.Core/bin/Debug/TestTask.Core.dll \
+	/Users/igor/Desktop/1/TestTask/TestTask.Core/bin/Debug/TestTask.Core.dll \
 	-r \
-	/Users/igor/Xamarin-samples/TestTask/TestTask.Plugins.Contacts/bin/Debug/TestTask.Plugins.Contacts.dll \
+	/Users/igor/Desktop/1/TestTask/TestTask.Plugins.Contacts/bin/Debug/TestTask.Plugins.Contacts.dll \
 	-r \
-	/Users/igor/Xamarin-samples/TestTask/TestTask.Plugins.Contacts/TestTask.Plugins.Contacts.Touch/bin/iPhoneSimulator/Debug/TestTaskPluginsContactsTouch.dll \
+	/Users/igor/Desktop/1/TestTask/TestTask.Plugins.Contacts/TestTask.Plugins.Contacts.Touch/bin/iPhoneSimulator/Debug/TestTaskPluginsContactsTouch.dll \
 	-r \
-	/Users/igor/Xamarin-samples/TestTask/TestTask.Plugins.Pictures/TestTask.Plugins.Pictures/TestTask.Plugins.Pictures.Touch/bin/Debug/TestTask.Plugins.Pictures.Touch.dll \
+	/Users/igor/Desktop/1/TestTask/TestTask.Plugins.Pictures/TestTask.Plugins.Pictures/TestTask.Plugins.Pictures.Touch/bin/Debug/TestTask.Plugins.Pictures.Touch.dll \
 	-r \
-	/Users/igor/Xamarin-samples/TestTask/TestTask.Plugins.Pictures/TestTask.Plugins.Pictures/bin/Debug/TestTask.Plugins.Pictures.dll \
+	/Users/igor/Desktop/1/TestTask/TestTask.Plugins.Pictures/TestTask.Plugins.Pictures/bin/Debug/TestTask.Plugins.Pictures.dll \
 	-r \
-	/Users/igor/Xamarin-samples/TestTask/TestTask.Plugins.Notifications/TestTask.Plugins.Notifications.Touch/bin/Debug/TestTask.Plugins.Notifications.Touch.dll \
+	/Users/igor/Desktop/1/TestTask/TestTask.Plugins.Notifications/TestTask.Plugins.Notifications.Touch/bin/Debug/TestTask.Plugins.Notifications.Touch.dll \
 	-r \
-	/Users/igor/Xamarin-samples/TestTask/TestTask.Plugins.Notifications/bin/Debug/TestTask.Plugins.Notifications.dll \
+	/Users/igor/Desktop/1/TestTask/TestTask.Plugins.Notifications/bin/Debug/TestTask.Plugins.Notifications.dll \
 	-r \
 	/Developer/MonoTouch/usr/lib/mono/2.1/System.dll \
 	-r \
@@ -32,33 +32,37 @@
 	-r \
 	/Developer/MonoTouch/usr/lib/mono/2.1/monotouch.dll \
 	-r \
-	/Users/igor/Xamarin-samples/MvvmCross-Binaries/VS2012/bin/Release/Mvx/Touch/Cirrious.CrossCore.Touch.dll \
-	-r \
-	/Users/igor/Xamarin-samples/MvvmCross-Binaries/VS2012/bin/Release/Mvx/Touch/Cirrious.MvvmCross.Binding.Touch.dll \
-	-r \
-	/Users/igor/Xamarin-samples/MvvmCross-Binaries/VS2012/bin/Release/Mvx/Touch/Cirrious.MvvmCross.Touch.dll \
-	-r \
-	/Users/igor/Xamarin-samples/MvvmCross-Binaries/VS2012/bin/Release/Mvx/Touch/Cirrious.CrossCore.dll \
-	-r \
-	/Users/igor/Xamarin-samples/MvvmCross-Binaries/VS2012/bin/Release/Mvx/Touch/Cirrious.MvvmCross.dll \
-	-r \
-	/Users/igor/Xamarin-samples/MvvmCross-Binaries/VS2012/bin/Release/Mvx/Touch/Cirrious.MvvmCross.Binding.dll \
-	-r \
 	/Developer/MonoTouch/usr/lib/mono/2.1/System.Windows.dll \
 	-r \
-	/Users/igor/Xamarin-samples/MvvmCross-Binaries/MvvmCross-SQLite/bin/Debug/Mvx/Touch/Cirrious.MvvmCross.Community.Plugins.Sqlite.Touch.dll \
+	/Users/igor/Desktop/1/TestTask/packages/MvvmCross.HotTuna.CrossCore.3.1.1/lib/MonoTouch/Cirrious.CrossCore.Touch.dll \
 	-r \
-	/Users/igor/Xamarin-samples/MvvmCross-Binaries/MvvmCross-SQLite/bin/Debug/Mvx/Touch/Cirrious.MvvmCross.Community.Plugins.Sqlite.dll \
+	/Users/igor/Desktop/1/TestTask/packages/MvvmCross.HotTuna.CrossCore.3.1.1/lib/MonoTouch/Cirrious.MvvmCross.Binding.Touch.dll \
 	-r \
-	/Users/igor/Xamarin-samples/MvvmCross-Binaries/VS2012/bin/Release/Mvx/Touch/Cirrious.MvvmCross.Plugins.DownloadCache.dll \
+	/Users/igor/Desktop/1/TestTask/packages/MvvmCross.HotTuna.CrossCore.3.1.1/lib/MonoTouch/Cirrious.CrossCore.dll \
 	-r \
-	/Users/igor/Xamarin-samples/MvvmCross-Binaries/VS2012/bin/Release/Mvx/Touch/Cirrious.MvvmCross.Plugins.DownloadCache.Touch.dll \
+	/Users/igor/Desktop/1/TestTask/packages/MvvmCross.HotTuna.CrossCore.3.1.1/lib/MonoTouch/Cirrious.MvvmCross.Binding.dll \
 	-r \
-	/Users/igor/Xamarin-samples/MvvmCross-Binaries/VS2012/bin/Release/Mvx/Touch/Cirrious.MvvmCross.Plugins.File.Touch.dll \
+	/Users/igor/Desktop/1/TestTask/packages/MvvmCross.HotTuna.CrossCore.3.1.1/lib/MonoTouch/Cirrious.MvvmCross.Localization.dll \
 	-r \
-	/Users/igor/Xamarin-samples/MvvmCross-Binaries/VS2012/bin/Release/Mvx/Touch/Cirrious.MvvmCross.Plugins.File.dll \
+	/Users/igor/Desktop/1/TestTask/packages/MvvmCross.HotTuna.MvvmCrossLibraries.3.1.1/lib/MonoTouch/Cirrious.MvvmCross.Touch.dll \
 	-r \
-	/Users/igor/Xamarin-samples/MvvmCross-Binaries/VS2012/bin/Release/Mvx/Portable/Cirrious.MvvmCross.Plugins.Json.dll \
+	/Users/igor/Desktop/1/TestTask/packages/MvvmCross.HotTuna.MvvmCrossLibraries.3.1.1/lib/MonoTouch/Cirrious.MvvmCross.dll \
+	-r \
+	/Users/igor/Desktop/1/TestTask/packages/MvvmCross.HotTuna.Plugin.File.3.1.1/lib/MonoTouch/Cirrious.MvvmCross.Plugins.File.dll \
+	-r \
+	/Users/igor/Desktop/1/TestTask/packages/MvvmCross.HotTuna.Plugin.File.3.1.1/lib/MonoTouch/Cirrious.MvvmCross.Plugins.File.Touch.dll \
+	-r \
+	/Users/igor/Desktop/1/TestTask/packages/MvvmCross.HotTuna.Plugin.Json.3.1.1/lib/MonoTouch/Cirrious.MvvmCross.Plugins.Json.dll \
+	-r \
+	/Users/igor/Desktop/1/TestTask/packages/MvvmCross.HotTuna.Plugin.Json.3.1.1/lib/MonoTouch/Newtonsoft.Json.dll \
+	-r \
+	/Users/igor/Desktop/1/TestTask/packages/MvvmCross.HotTuna.Plugin.DownloadCache.3.1.1/lib/MonoTouch/Cirrious.MvvmCross.Plugins.DownloadCache.dll \
+	-r \
+	/Users/igor/Desktop/1/TestTask/packages/MvvmCross.HotTuna.Plugin.DownloadCache.3.1.1/lib/MonoTouch/Cirrious.MvvmCross.Plugins.DownloadCache.Touch.dll \
+	-r \
+	/Users/igor/Desktop/1/TestTask/packages/MvvmCross.Community.Plugin.Sqlite.3.1.1/lib/MonoTouch/Cirrious.MvvmCross.Community.Plugins.Sqlite.dll \
+	-r \
+	/Users/igor/Desktop/1/TestTask/packages/MvvmCross.Community.Plugin.Sqlite.3.1.1/lib/MonoTouch/Cirrious.MvvmCross.Community.Plugins.Sqlite.Touch.dll \
 	-debug \
 	-nolink \
 	-sdk \
@@ -66,4 +70,4 @@
 	-targetver \
 	7.0 \
 	--abi=i386 \
-	/Users/igor/Xamarin-samples/TestTask/TestTask.UI.Touch/bin/iPhoneSimulator/Debug/TestTaskUITouch.exe \
+	/Users/igor/Desktop/1/TestTask/TestTask.UI.Touch/bin/iPhoneSimulator/Debug/TestTaskUITouch.exe \

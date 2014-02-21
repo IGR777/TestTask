@@ -50,6 +50,9 @@ namespace TestTask.Plugins.Contacts.Droid
 			// aapt resource value: 0x7f020001
 			public const int monoandroidsplash = 2130837505;
 			
+			// aapt resource value: 0x7f020002
+			public const int splash = 2130837506;
+			
 			static Drawable()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
@@ -82,6 +85,9 @@ namespace TestTask.Plugins.Contacts.Droid
 			// aapt resource value: 0x7f030000
 			public const int Main = 2130903040;
 			
+			// aapt resource value: 0x7f030001
+			public const int SplashScreen = 2130903041;
+			
 			static Layout()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
@@ -95,11 +101,11 @@ namespace TestTask.Plugins.Contacts.Droid
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f040001
-			public const int app_name = 2130968577;
+			// aapt resource value: 0x7f050001
+			public const int app_name = 2131034113;
 			
-			// aapt resource value: 0x7f040000
-			public const int hello = 2130968576;
+			// aapt resource value: 0x7f050000
+			public const int hello = 2131034112;
 			
 			static String()
 			{
@@ -114,8 +120,11 @@ namespace TestTask.Plugins.Contacts.Droid
 		public partial class Style
 		{
 			
-			// aapt resource value: 0x7f050000
-			public const int Mono_Android_Theme_Splash = 2131034112;
+			// aapt resource value: 0x7f040001
+			public const int Mono_Android_Theme_Splash = 2130968577;
+			
+			// aapt resource value: 0x7f040000
+			public const int Theme_Splash = 2130968576;
 			
 			static Style()
 			{

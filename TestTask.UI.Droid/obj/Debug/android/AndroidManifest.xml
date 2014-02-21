@@ -12,6 +12,7 @@
     <activity android:label="Show picture" android:name="testtask.ui.droid.ShowPictureView" />
     <activity android:label="Edit picture" android:name="testtask.ui.droid.EditPictureView" />
     <activity android:label="Cool picture" android:name="testtask.ui.droid.CoolPictureView" />
+    <activity android:label="View for FirstViewModel" android:name="testtask.ui.droid.views.FirstView" />
     <activity android:name="xamarin.media.MediaPickerActivity" />
     <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="TestTask.UI.Droid.mono.MonoRuntimeProvider.__mono_init__" />
     <receiver android:name="mono.android.Seppuku">

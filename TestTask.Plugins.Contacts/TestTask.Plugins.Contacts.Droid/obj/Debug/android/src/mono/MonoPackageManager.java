@@ -67,16 +67,16 @@ public class MonoPackageManager {
 class MonoPackageManager_Resources {
 	public static final String[] Assemblies = new String[]{
 		"TestTask.Plugins.Contacts.Droid.dll",
-		"Cirrious.CrossCore.dll",
 		"Cirrious.CrossCore.Droid.dll",
-		"Xamarin.Mobile.dll",
-		"Cirrious.MvvmCross.dll",
-		"Cirrious.MvvmCross.Droid.dll",
-		"TestTask.Plugins.Contacts.dll",
-		"TestTask.DT.dll",
 		"Cirrious.MvvmCross.Binding.Droid.dll",
+		"Cirrious.CrossCore.dll",
 		"Cirrious.MvvmCross.Binding.dll",
 		"Cirrious.MvvmCross.Localization.dll",
+		"Cirrious.MvvmCross.Droid.dll",
+		"Cirrious.MvvmCross.dll",
+		"Xamarin.Mobile.dll",
+		"TestTask.Plugins.Contacts.dll",
+		"TestTask.DT.dll",
 	};
 	public static final String[] Dependencies = new String[]{
 	};
